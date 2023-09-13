@@ -3,8 +3,9 @@ import * as amplitude from '@amplitude/analytics-browser';
 
 
 export default function Home() {
-  amplitude.init('73a0d7d52b22f16cd3802051a9807929');
-  amplitude.track('Sign Up');
+  // const API_KEY = process.env.API_KEY
+  // amplitude.init(API_KEY!);
+  // amplitude.track('Sign Up');
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
